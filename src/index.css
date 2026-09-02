@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-display: 'Cinzel', 'Cormorant Garamond', serif;
+    
+    --color-charcoal: #16191c;
+    --color-charcoal-light: #23272b;
+    --color-ivory: #faf8f5;
+    --color-ivory-dark: #f0ebe1;
+    --color-gold: #c5a86a;
+    --color-gold-hover: #b39556;
+    --color-terracotta: #c86446;
+    --color-olive: #3f4a3c;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-ivory);
+    color: var(--color-charcoal);
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom subtle jaali & architectural grid patterns */
+.bg-jaali-pattern {
+  background-image: radial-gradient(#c5a86a 0.75px, transparent 0.75px), radial-gradient(#c5a86a 0.75px, #faf8f5 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.15;
+}
+
+.bg-architectural-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(197, 168, 106, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(197, 168, 106, 0.08) 1px, transparent 1px);
+}
+
+.bg-architectural-grid-dark {
+  background-size: 48px 48px;
+  background-image: 
+    linear-gradient(to right, rgba(197, 168, 106, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(197, 168, 106, 0.07) 1px, transparent 1px);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Majestic Estates",
+  "description": "Majestic Estates is a premier real estate consultant in Mayur Vihar, New Delhi, assisting with residential and commercial property buying, selling, and renting across Delhi NCR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
